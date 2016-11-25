@@ -1,27 +1,22 @@
 # Ember-cli-ai
 
-This README outlines the details of collaborating on this Ember addon.
+Easily add Microsoft's Application Insights to your app.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-ai`
-* `npm install`
-* `bower install`
+```bash
+# From within your ember-cli project
+npm install ember-cli-ai
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+First you'll need to configure your GTM App ID:
 
-## Running Tests
+```javascript
+// config/environment.js
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+ENV['ember-cli-ai'] = {
+    instrumentationKey: 'YOUR_INSTRUMENTATION_KEY'
+};
+```

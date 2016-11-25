@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-ai",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.1.0",
+  "description": "Add Microsoft's Application Insights to an Ember project",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/LoganHollins/ember-cli-ai",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Logan Hollins",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
