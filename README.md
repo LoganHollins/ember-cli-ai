@@ -11,7 +11,7 @@ npm install ember-cli-ai
 
 ## Usage
 
-First you'll need to configure your GTM App ID:
+First you'll need to configure your AI Instrumentation Key:
 
 ```javascript
 // config/environment.js
